@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,6 +11,10 @@ const geistMono = Geist_Mono({
     variable: "--font-geist-mono",
     subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+    themeColor: "#0b0b0b",
+};
 
 export const metadata: Metadata = {
     title: "TheKyban",
@@ -27,7 +31,6 @@ export const metadata: Metadata = {
         "Portfolio",
     ],
     authors: [{ name: "TheKyban" }],
-    themeColor: "#0b0b0b",
     openGraph: {
         title: "TheKyban",
         description:
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
         url: "https://kyban.in/",
         images: [
             {
-                url: "https://kyban.in/og-image.png",
+                url: "https://kyban.in/api/og",
                 width: 1200,
                 height: 630,
                 alt: "TheKyban",
@@ -49,7 +52,7 @@ export const metadata: Metadata = {
         title: "TheKyban",
         description:
             "Aditya Kumar (TheKyban) is a Full Stack Developer focused on building performant React and Next.js applications, backend APIs, and developer tools. Available for freelance contracts and collaborations.",
-        images: ["https://kyban.in/og-image.png"],
+        images: ["https://kyban.in/api/og"],
     },
 };
 
