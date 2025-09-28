@@ -15,13 +15,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "TheKyban",
     description:
-        "Full Stack Developer and freelancer. Portfolio of TheKyban — projects, work history, and skills.",
+        "Aditya Kumar (TheKyban) — Full Stack Developer specializing in React, Next.js, and scalable web platforms. I build fast, maintainable products used by small businesses and teams; available for freelance and contract work.",
+    keywords: [
+        "TheKyban",
+        "thekyban",
+        "the kyban",
+        "thekybans",
+        "kyban",
+        "KYBAN",
+        "Full Stack Developer",
+        "Portfolio",
+    ],
     authors: [{ name: "TheKyban" }],
     themeColor: "#0b0b0b",
     openGraph: {
         title: "TheKyban",
         description:
-            "Full Stack Developer and freelancer. Portfolio of TheKyban — projects, work history, and skills.",
+            "Portfolio of Aditya Kumar (TheKyban). Examples of production projects, technical skills, and measurable impact — help for startups and businesses to ship fast, reliable web apps.",
         siteName: "TheKyban",
         type: "profile",
         url: "https://kyban.in/",
@@ -38,8 +48,8 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "TheKyban",
         description:
-            "Full Stack Developer and freelancer. Portfolio of TheKyban — projects, work history, and skills.",
-        images: ["https://your-domain.example/og-image.png"],
+            "Aditya Kumar (TheKyban) is a Full Stack Developer focused on building performant React and Next.js applications, backend APIs, and developer tools. Available for freelance contracts and collaborations.",
+        images: ["https://kyban.in/og-image.png"],
     },
 };
 
@@ -60,6 +70,7 @@ export default function RootLayout({
                             "@context": "https://schema.org",
                             "@type": "Person",
                             name: "TheKyban",
+                            alternateName: "thekyban",
                             url: "https://kyban.in/",
                             sameAs: [
                                 "https://github.com/thekyban",

@@ -34,6 +34,7 @@ export default function Home() {
                 <h1 className="title text-4xl sm:text-5xl font-extrabold">
                     Aditya Kumar
                 </h1>
+                <p className="mt-1 text-gray-400 text-sm">TheKyban</p>
                 <p className="mt-3 text-gray-300">
                     +91-7479796212 | aaditya1392@gmail.com | Portfolio | GitHub
                     | linkedin.com
@@ -50,8 +51,12 @@ export default function Home() {
                             PROFILE
                         </h2>
                         <p className="mt-1 muted">
-                            Full Stack Developer and a full-time freelancer with
-                            Masters in Computer Application.
+                            Full Stack Developer with deep experience in React
+                            and Next.js. I design and deliver performant web
+                            applications and APIs that help small teams and
+                            businesses ship features faster. Available for
+                            freelance and contract work — reach out via email
+                            or GitHub to discuss a project.
                         </p>
                         <div className="section-divider"></div>
                     </section>
